@@ -11,37 +11,53 @@
   </header>
   <body>
     <form>
-        <fieldset>
       <fieldset>
-        <legend>gegevens van de overledene</legend>
-        <p>1a</p>
-
-        <label for="name">Voornaam</label>
-        <input type="text" />
-        <label for="name">Tussen-voegsel</label>
-        <input type="text" />
-        <label for="name">Achternaam</label>
-        <input type="text" />
-        <label for="name">BSN overledene</label>
-        <input type="number" />
-        <label for="name"></label>
-        <input type="date" />
-      </fieldset>
-    </form>
-
-    <form>
+        <!-- /////////////////////////////// 
+        fieldset voor invullen van de namen
+        /////////////////////////////// -->
         <fieldset>
-            <legend>Was de overledene getrouwd of had de overledene een 
-geregistreerde partner op het moment van overlijden</legend>
-<label>
-    <input type="radio" name="married" required value="1">ja
-</label>
-<label>
-    <input>
-</label>
+          <legend>gegevens van de overledene</legend>
+          <p>1a</p>
 
+          <label for="name">Voorletter(s)</label>
+          <input type="text" required />
+          <label for="name">Tussen-voegsel(s)</label>
+          <input type="text" />
+          <label for="name">Achternaam</label>
+          <input type="text" />
+          <label for="name">BSN overledene</label>
+          <input type="number" />
+          <label for="name"></label>
+          <input type="date" />
         </fieldset>
-    </fieldset>
+        <!-- /////////////////////////////// 
+        fieldset voor radio buttons married >
+        /////////////////////////////// -->
+        <fieldset>
+          <legend>
+            Was de overledene getrouwd of had de overledene een geregistreerde
+            partner op het moment van overlijden
+          </legend>
+          <label> <input type="radio" name="married" />ja </label>
+          <label> <input type="radio" name="married" />nee </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Hadden de overledene en diens echtgenoot of geregistreerde partner
+            huwelijkse of partner schaps voorwaarden laten vast leggen in een
+            notariële akte?
+          </legend>
+          <label
+            ><input type="radio" name="akte" />ja. Stuur een kopie van de akte
+            mee met de aangifte</label
+          >
+          <label
+            ><input type="radio" name="akte" /> nee ga verder naar vraag
+            1c</label
+          >
+        </fieldset>
+      </fieldset>
     </form>
   </body>
 </html>
