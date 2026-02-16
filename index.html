@@ -15,24 +15,25 @@
         <!-- /////////////////////////////// 
         fieldset voor invullen van de namen
         /////////////////////////////// -->
+        <p>1a</p>
         <fieldset>
           <legend>gegevens van de overledene</legend>
-          <p>1a</p>
 
           <label for="name">Voorletter(s)</label>
-          <input type="text" required />
+          <input type="text" id="name" required />
           <label for="name">Tussen-voegsel(s)</label>
           <input type="text" />
           <label for="name">Achternaam</label>
-          <input type="text" />
+          <input type="text" id="name" />
           <label for="name">BSN overledene</label>
-          <input type="number" />
+          <input type="number" id="name" />
           <label for="name"></label>
-          <input type="date" />
+          <input type="date" id="name" />
         </fieldset>
         <!-- /////////////////////////////// 
-        fieldset voor radio buttons married >
+        married gedeelte
         /////////////////////////////// -->
+        <p>1b</p>
         <fieldset>
           <legend>
             Was de overledene getrouwd of had de overledene een geregistreerde
@@ -57,7 +58,91 @@
             1c</label
           >
         </fieldset>
+
+        <fieldset>
+          <legend>
+            Hadden de overledene en diens partner een finaal verrekenbeding?
+          </legend>
+          <label
+            ><input type="radio" name="partner" />ja mee met de aangifte</label
+          >
+          <label><input type="radio" name="partner" /> nee</label>
+        </fieldset>
+        <fieldset>
+          <legend>Datum huwelijkse of partnerschapsvoorwaarden</legend>
+          <label for="huwlijk"></label>
+          <input type="date" id="huwlijk" />
+        </fieldset>
+
+        <!-- /////////////////////////////// 
+        Kinderen >
+        /////////////////////////////// -->
+
+        1c
+        <fieldset>
+          <legend>Had de overledene kinderen</legend>
+          <label><input type="radio" name="kinderen" />Ja </label>
+          <label
+            ><input type="radio" name="kinderen" /> Nee. Ga verder mer de vraag
+            1d</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Is 1 van deze kinderen eerder overleden dan de overledene voor wie u
+            nu aangifte doet
+          </legend>
+          <label><input type="radio" name="kinderen-dood" />Ja </label>
+          <label
+            ><input type="radio" name="kinderen-dood" /> Nee. Ga verder mer de
+            vraag 1d</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>Had dit overleden kind zelf kinderen?</legend>
+          <label><input type="radio" name="kinderen-kind" />Ja </label>
+          <label><input type="radio" name="kinderen-kind" /> Nee</label>
+        </fieldset>
+
+        <!-- /////////////////////////////// 
+     overleden
+        /////////////////////////////// -->
+        <p>1d</p>
+
+        <fieldset>
+          <legend>Had de overledene een testament?</legend>
+          <label
+            ><input type="radio" name="overleden" />Ja. vul de gegevens in van
+            de notaris die het testemant heeft gemaakt en de datum van het
+            testament</label
+          >
+          <label
+            ><input type="radio" name="overleden" /> Nee ga verder naar vraag
+            2</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>gegevens van de notaris</legend>
+
+          <label for="notaris">Protocolnummer notaris</label>
+          <input type="number" id="notaris" />
+
+          <label for="notaris">Voorletter(s)</label>
+          <input type="text" id="notaris" required />
+          <label for="notaris">Tussen-voegsel(s)</label>
+          <input type="text" />
+          <label for="notaris">Achternaam</label>
+          <input type="text" id="notaris" />
+          <label for="notaris">vesting plaats</label>
+          <input type="text" id="notaris" />
+
+          <label for="notaris"></label>
+          <input type="date" id="notaris" />
+        </fieldset>
       </fieldset>
     </form>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
