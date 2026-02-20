@@ -1,6 +1,8 @@
 # Browser-Technology
 
 
+## dit is een school project
+
 
 ## wat heb ik geleerd 
 niet veel geleerd het was vooral refreshen van mijn skills
