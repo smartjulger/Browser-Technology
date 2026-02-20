@@ -15,6 +15,10 @@ html form afmaken en beginnen met stylen
 html opgezet dit koste bijna de heledag daarna voor het laaste uur een artical gelezen over icons gebruik.
 
 
+## weekelijks gesprek met de docent
+
+
+
 
 ## bronnen
 
