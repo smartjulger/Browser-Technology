@@ -2,7 +2,14 @@
 
 ## 16-02-2026 (mitchell)
 
+<<<<<<< HEAD
 ### wat heb ik geleerd 
+=======
+## dit is een school project
+
+
+## wat heb ik geleerd 
+>>>>>>> 41d476d54977b21973234264a6404fbad2af2aec
 niet veel geleerd het was vooral refreshen van mijn skills
 
 ### Wat ga ik morgen doen?
@@ -11,6 +18,10 @@ html form afmaken en beginnen met stylen
 
 ### Wat heb ik gedaan/hoelang duurde het
 html opgezet dit koste bijna de heledag daarna voor het laaste uur een artical gelezen over icons gebruik.
+
+
+## weekelijks gesprek met de docent
+
 
 
 
