@@ -2,14 +2,10 @@
 
 ## 16-02-2026 (mitchell)
 
-<<<<<<< HEAD
-### wat heb ik geleerd 
-=======
 ## dit is een school project
 
 
 ## wat heb ik geleerd 
->>>>>>> 41d476d54977b21973234264a6404fbad2af2aec
 niet veel geleerd het was vooral refreshen van mijn skills
 
 ### Wat ga ik morgen doen?
@@ -19,8 +15,6 @@ html form afmaken en beginnen met stylen
 ### Wat heb ik gedaan/hoelang duurde het
 html opgezet dit koste bijna de heledag daarna voor het laaste uur een artical gelezen over icons gebruik.
 
-
-## weekelijks gesprek met de docent
 
 
 
@@ -36,6 +30,31 @@ styling verder doen zodat het meer lijkt op de website van de ns
 ### Wat heb ik gedaan/hoelang duurde het
 ben bezig geweest met het hernamen van mijn html zodat het wat beter begrijpbaar is dit duurde 1,5 uur 
 daarna ben ik gaan opzoeken hoe ik eerst een fieldset hidden heb en daarna als je op de radio button klikt dan de fieldset tevoorschijn komt
+
+## week 2
+### weekelijks gesprek met de docent
+Niet veel kunnen laten zien want ik had alleen mijn html neergezet.
+
+Feedback was dat het fijn was dat ik eerst all me html heb neergezet en daarna pas bezig was met styling
+
+
+
+## 02/03/2026
+
+
+## wat heb ik geleerd 
+
+Hoe je vallidation met css kan doen.
+
+
+### Wat ga ik morgen doen?
+
+CSS validation toevoegen aan mijn form en basis styling
+
+### Wat heb ik gedaan/hoelang duurde het
+
+workshop css validation dit duurde 1 uur en wat onderzoek gedaan naar welke data picker ik wil gebruiken.
+
 ### bronnen
 
 NS huistijl
