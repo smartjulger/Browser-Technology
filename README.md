@@ -55,6 +55,21 @@ CSS validation toevoegen aan mijn form en basis styling
 
 workshop css validation dit duurde 1 uur en wat onderzoek gedaan naar welke data picker ik wil gebruiken.
 
+
+## 03/03/2026()
+
+## wat heb ik geleerd?
+vandaag heb ik geleerd hoe je een icoontje kan toevoegen als je input valide is en hoe je validatie kan doen met css
+
+### Wat heb ik gedaan/hoelang duurde het
+
+vandaag was het een meer productieve ik ben begonnen met wat progressive disclosure daarna ben ik begonnen met styling de styling duurde langer dan gehoopt namelijk 2 uur voor wat basis styling dit kwam omdat de legend buiten de fieldset ging.
+
+### Wat ga ik volgende keer doen?
+
+volgende keer wil ik de progressive disclosure afmaken en als dat af is wil ik de styling verder doen.
+
+
 ### bronnen
 
 NS huistijl
