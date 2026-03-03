@@ -1,8 +1,24 @@
+/* MARK: root */
+:root{
+    --form-width: min(80vw, 750px);
+}
+/* zet de fonts om van woff naar ttf */
+@font-face{
+    font-family: nssans;
+    src: url(assets/fonts/nssans-regular.woff2);
+}
+
 *{
     margin: 0;
     padding: 0;
-    font-style: roboto;
+    border: none;
 }
+
+body{
+  color: rgb(230 230 233);
+  margin: 0.5rem;
+}
+
 
 h1{
     background-color: red;
@@ -10,14 +26,75 @@ h1{
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    
 }
 
-fieldset{
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 1rem;
+    width: var(--form-width);
+    padding: 0.5rem;
 }
+
+
+
+fieldset{
+    margin: 0.5rem;
+    width: 100%;
+    background-color: rgb(255 201 23);
+    padding: 1rem;
+}
+
+legend{
+    color: blue;
+    padding-top: 4rem;
+    font-family: nssans, sans-serif;
+
+}
+/* met Nienke gemaakt
+fieldset:has(input[type="radio"]) legend, fieldset:has(input[type="text"]) legend{
+    float: none;
+} */
 
 label{
     display: flex;
+    flex-direction: row;
     gap: 1rem;
     margin: 0.5rem;
+    color: rgb(57 48 130);
 }
+
+
+input{
+    padding: 1em;
+    border: 2px solid #353585;
+}
+
+/* MARK: verstuur button */
+button{
+    background-color: blue;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+ /*  MARK: progressiv disclosure  */
+
+#akte-fieldset,
+#partner-fieldset,
+#huwlijk-fieldset {
+    display: none;
+}
+
+form:has(#married-ja:checked) #akte-fieldset,
+form:has(#married-ja:checked) #partner-fieldset,
+form:has(#married-ja:checked) #huwlijk-fieldset {
+    display: block;
+}
+
+
+
