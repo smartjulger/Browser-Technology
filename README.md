@@ -31,7 +31,7 @@ styling verder doen zodat het meer lijkt op de website van de ns
 ben bezig geweest met het hernamen van mijn html zodat het wat beter begrijpbaar is dit duurde 1,5 uur 
 daarna ben ik gaan opzoeken hoe ik eerst een fieldset hidden heb en daarna als je op de radio button klikt dan de fieldset tevoorschijn komt
 
-## week 2
+## week 1
 ### weekelijks gesprek met de docent
 Niet veel kunnen laten zien want ik had alleen mijn html neergezet.
 
@@ -56,7 +56,7 @@ CSS validation toevoegen aan mijn form en basis styling
 workshop css validation dit duurde 1 uur en wat onderzoek gedaan naar welke data picker ik wil gebruiken.
 
 
-## 03/03/2026()
+## 03/03/2026
 
 ## wat heb ik geleerd?
 vandaag heb ik geleerd hoe je een icoontje kan toevoegen als je input valide is en hoe je validatie kan doen met css
@@ -69,6 +69,15 @@ vandaag was het een meer productieve ik ben begonnen met wat progressive disclos
 
 volgende keer wil ik de progressive disclosure afmaken en als dat af is wil ik de styling verder doen.
 
+
+
+## week 2
+
+### feedback gesprek met groepje
+laat de styling een beetje zitten en kijk naar de validation als dat gedaan is kan je weer verder met styling. Voor het contrast kan je de background aanpassen naar geel en dan de fomr zelf wit voor een beter contrast.
+
+### wat heb ik gedaan deze week?
+deze week ben ik begonnen met het stylen van mijn vorm ik heb gekozen om de achtergrond een beetje grijs te maken zoals de ns gebruikt en dan voor de form maak ik gebruik van geel en dan voor de legends maak ik gebruik van blauw. Na de basis styling ben ik bezig geweest met de progressive disclosure maken. Dinsdag ben ik weer gaan kijken naar de kleuren omdat het contrast niet fijn was en ben ik gaan proberen om de legends te fixen die namen namelijk meer ruimte in dan zou moeten(dit is nog een lopend probleem aan het eind van de week) en ben ik gaan kijken naar het stylen van de radio buttons zodat ze iets meer lijken op een normale button. Als laatst ben ik gaan kijken naar wat validation ik heb daar wat voor toegevoegd maar daarna weer weg gehaalt omdat het niet werkte zoals ik het wilde.
 
 ### bronnen
 
