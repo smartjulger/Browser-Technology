@@ -79,6 +79,20 @@ laat de styling een beetje zitten en kijk naar de validation als dat gedaan is k
 ### wat heb ik gedaan deze week?
 deze week ben ik begonnen met het stylen van mijn vorm ik heb gekozen om de achtergrond een beetje grijs te maken zoals de ns gebruikt en dan voor de form maak ik gebruik van geel en dan voor de legends maak ik gebruik van blauw. Na de basis styling ben ik bezig geweest met de progressive disclosure maken. Dinsdag ben ik weer gaan kijken naar de kleuren omdat het contrast niet fijn was en ben ik gaan proberen om de legends te fixen die namen namelijk meer ruimte in dan zou moeten(dit is nog een lopend probleem aan het eind van de week) en ben ik gaan kijken naar het stylen van de radio buttons zodat ze iets meer lijken op een normale button. Als laatst ben ik gaan kijken naar wat validation ik heb daar wat voor toegevoegd maar daarna weer weg gehaalt omdat het niet werkte zoals ik het wilde.
 
+
+
+## 09/02/2026
+
+
+## wat heb ik geleerd?
+vandaag heb ik geleerd de kracht van color variables
+
+### Wat heb ik gedaan/hoelang duurde het
+styling van de form verder gedaan zodat het er beter uit ziet en progressiv disclosure
+
+### Wat ga ik volgende keer doen?
+ik ga verder met vallidation afmaken binnen css
+
 ### bronnen
 
 NS huistijl
