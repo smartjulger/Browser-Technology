@@ -81,7 +81,7 @@ deze week ben ik begonnen met het stylen van mijn vorm ik heb gekozen om de acht
 
 
 
-## 09/02/2026 (thomas)
+## 09/03/2026 (thomas)
 
 
 ## wat heb ik geleerd?
@@ -92,6 +92,17 @@ styling van de form verder gedaan zodat het er beter uit ziet en progressiv disc
 
 ### Wat ga ik volgende keer doen?
 ik ga verder met vallidation afmaken binnen css
+
+## 10/03/2026 ()
+
+## wat heb ik geleerd?
+dat het best moeilijk is om via javascript de required van een hidden ellement te verwijderen en en weer toevoegen.
+
+### Wat heb ik gedaan/hoelang duurde het
+vandaag heb ik de 2e pagina toegevoegd en de styling gedaan ook bezig geweest met een error message als iets invallid is. daarna ben ik aan de slag gegaan om te proberen dat je de form local kan opslaan maar dit duurde te lang dus heb ik dat links gelaten voor nu. Daarna heb ik geprobeerdt om de required weg tehalen via javascript als een input hidden is dit werkte niet heel optimaal en ben ik nu nog mee bezig. Daarnaast ook kort gekeken naar de elf proef voor de BSN maar dat wil ik later nog gaan tackelen
+
+### Wat ga ik volgende keer doen?
+Vallidation verbeteren met JS en de elfproef maken en landcodes toevoegen.
 
 ### bronnen
 
@@ -106,3 +117,7 @@ https://blue-water-08c39b403.5.azurestaticapps.net/?path=/docs/web-form--docs
 algemenen informatie over forms:
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/pattern
+
+Elf proef
+
+https://gathering.tweakers.net/forum/list_messages/1154338
