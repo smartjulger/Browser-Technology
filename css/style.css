@@ -1,98 +1,183 @@
-/* MARK: root */
-:root{
-    --form-width: min(80vw, 750px);
-}
-/* zet de fonts om van woff naar ttf */
-@font-face{
+@font-face {
     font-family: nssans;
-    src: url(assets/fonts/nssans-regular.woff2);
+    src: url('../assets/fonts/nssans-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
-*{
+@font-face {
+    font-family: nssans;
+    src: url('../assets/fonts/nssans-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+/* MARK: root */
+:root {
+    --form-width: min(92vw, 750px);
+    
+    /* Colors */
+    --color-primary: #353585;
+    --color-primary-dark: #0a3680;
+    --color-light: #e6e6e9;
+    --color-accent: red;
+    --color-text: rgb(57 48 130);
+    --color-bg: #e6e6e9;
+    --color-white: white;
+    --color-button: blue;
+    --color-border: #353585;
+}
+
+
+* {
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
+    box-sizing: border-box;
 }
 
-body{
-  color: rgb(230 230 233);
-  margin: 0.5rem;
+body {
+    background-color: var(--color-bg);
+    font-family: nssans, sans-serif;
 }
 
-
-h1{
-    background-color: red;
-    color: white;
+h1 {
+    background-color: var(--color-accent);
+    color: var(--color-white);
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    
+    padding: 1rem;
+    font-family: nssans, sans-serif;
+    font-weight: bold;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 1rem;
+    align-items: stretch;
+    margin: 1rem auto;
     width: var(--form-width);
-    padding: 0.5rem;
-}
-
-
-
-fieldset{
-    margin: 0.5rem;
-    width: 100%;
-    background-color: rgb(255 201 23);
     padding: 1rem;
-}
-
-legend{
-    color: blue;
-    padding-top: 4rem;
-    font-family: nssans, sans-serif;
-
-}
-/* met Nienke gemaakt
-fieldset:has(input[type="radio"]) legend, fieldset:has(input[type="text"]) legend{
-    float: none;
-} */
-
-label{
-    display: flex;
-    flex-direction: row;
+    background-color: var(--color-white);
     gap: 1rem;
-    margin: 0.5rem;
-    color: rgb(57 48 130);
 }
 
-
-input{
-    padding: 1em;
-    border: 2px solid #353585;
+span {
+    color: var(--color-accent);
 }
 
-/* MARK: verstuur button */
-button{
-    background-color: blue;
+h2 {
+    padding: 0.5rem ;
+    color: var(--color-primary);
+    font-family: nssans, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+fieldset {
+    margin: 0;
+    padding: 1rem;
     width: 100%;
-    height: fit-content;
-    color: white;
+    min-inline-size: 0;
+}
+
+legend {
+    color: var(--color-primary);
+    font-family: nssans, sans-serif;
+    line-height: 1;
+    font-weight: bold;
+}
+
+label {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 0.5rem ;
+    color: var(--color-text);
+    font-family: nssans, sans-serif;
+}
+
+/* MARK:input types */
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    border: 2px solid var(--color-border);
+    transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus {
+    border: 3px solid var(--color-primary-dark);
+    background-color: var(--color-light);
+}
+/* MARK:Vallidation */
+input:user-valid{
+    border: 2px solid green
+}
+
+input:user-invalid{
+    border: 2px solid red;
+}
+/* tip gekregen van Mitchell om de error msg met css te doen via een display none en dan display block */
+.error-msg {
+    display: none;
+    color: var(--color-accent);
+}
+
+input:user-invalid + .error-msg {
+    display: block;
+    margin: 4px;
+}
+
+button {
+    background-color: var(--color-button);
+    width: 100%;
+    color: var(--color-white);
     border-radius: 4px;
     padding: 1rem;
+    cursor: pointer;
 }
 
- /*  MARK: progressiv disclosure  */
-
+/* MARK: progressive disclosure */
 #akte-fieldset,
+#akte-kopie-fieldset,
 #partner-fieldset,
-#huwlijk-fieldset {
+#huwlijk-fieldset,
+#kinderen-dood-fieldset,
+#kinderen-kind-fieldset,
+#notaris-fieldset {
     display: none;
 }
 
 form:has(#married-ja:checked) #akte-fieldset,
-form:has(#married-ja:checked) #partner-fieldset,
-form:has(#married-ja:checked) #huwlijk-fieldset {
+form:has(#married-ja:checked) #partner-fieldset {
+    display: block;
+}
+
+form:has(#akte-ja:checked) #akte-kopie-fieldset {
+    display: block;
+}
+
+form:has(#partner-ja:checked) #huwlijk-fieldset {
+    display: block;
+}
+
+form:has(#testament-ja:checked) #notaris-fieldset {
+    display: block;
+}
+
+form:has(#kinderen-ja:checked) #kinderen-dood-fieldset {
+    display: block;
+}
+
+form:has(#kinderen-dood-ja:checked) #kinderen-kind-fieldset {
     display: block;
 }
 
