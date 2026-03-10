@@ -81,7 +81,7 @@ deze week ben ik begonnen met het stylen van mijn vorm ik heb gekozen om de acht
 
 
 
-## 09/02/2026
+## 09/02/2026 (thomas)
 
 
 ## wat heb ik geleerd?
