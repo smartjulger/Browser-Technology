@@ -1,8 +1,10 @@
-# Browser-Technology
+
+# dit is een school project
+
+## Browser-Technology
 
 ## 16-02-2026 (mitchell)
 
-## dit is een school project
 
 
 ## wat heb ik geleerd 
