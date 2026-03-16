@@ -93,7 +93,7 @@ styling van de form verder gedaan zodat het er beter uit ziet en progressiv disc
 ### Wat ga ik volgende keer doen?
 ik ga verder met vallidation afmaken binnen css
 
-## 10/03/2026 ()
+## 10/03/2026 (Mila)
 
 ## wat heb ik geleerd?
 dat het best moeilijk is om via javascript de required van een hidden ellement te verwijderen en en weer toevoegen.
@@ -103,6 +103,14 @@ vandaag heb ik de 2e pagina toegevoegd en de styling gedaan ook bezig geweest me
 
 ### Wat ga ik volgende keer doen?
 Vallidation verbeteren met JS en de elfproef maken en landcodes toevoegen.
+
+
+
+## 13/03/2026
+
+### feedback sessie 
+kijk naar de witruimte zodat het niet super clustered is. Daarnaast de button om naar de volgende pagina te gaan kijken hoe hij de informatie kan opslaan zodat je het weer kan laden en nog wat extra styling toevoegen bij pagina 2 en connect de 2 date pickers met js(alleen wnr er nog tijd voor is)
+
 
 ### bronnen
 

@@ -75,10 +75,10 @@ h2 {
 }
 
 fieldset {
-    margin: 0;
     padding: 1rem;
     width: 100%;
-    min-inline-size: 0;
+    display: grid;
+    
 }
 
 legend {
@@ -91,13 +91,13 @@ legend {
 label {
     display: flex;
     align-items: flex-start;
-    gap: 1rem;
-    margin: 0.5rem ;
+    gap: .5rem;
+    padding-top: 1rem;
     color: var(--color-text);
     font-family: nssans, sans-serif;
 }
 
- a {
+a {
     display: block;
     background-color: var(--color-button);
     color: var(--color-white);
@@ -201,6 +201,7 @@ form:has(#kinderen-ja:checked) #kinderen-dood-fieldset {
 form:has(#kinderen-dood-ja:checked) #kinderen-kind-fieldset {
     display: block;
 }
+
 
 
 
