@@ -114,6 +114,30 @@ Vallidation verbeteren met JS en de elfproef maken en landcodes toevoegen.
 kijk naar de witruimte zodat het niet super clustered is. Daarnaast de button om naar de volgende pagina te gaan kijken hoe hij de informatie kan opslaan zodat je het weer kan laden en nog wat extra styling toevoegen bij pagina 2 en connect de 2 date pickers met js(alleen wnr er nog tijd voor is)
 
 
+
+
+## 16/03/2026
+
+### user test
+Ik heb een usertest gehouden om te testen wat wel en niet werkt binnen mijn formulier. Uit de test kwam naar voren dat een * duidelijk aangeeft dat dit required is. Ik had namelijk 2 forms 1 waar de required dit wel hadden en 1 waar ze dit niet hadden en daaruit bleek dat als ze geen sterretje hadden gebruikers ze vaak overslaan en dan als ze iets willen versturen dan opeens een error krijgen. Wat er gemist werd is een scherm waarin staat dat het formulier is verstuurd. Ook zou het fijn zijn als er tussen vraag 1 en 2 meer wit ruimte is en misschien ook een tekst die aangeeft om eerst al de vragen van vraag 1 goed te controleren of deze goed ingevuld zijn en dan wat extra tekst die uitleg geeft over vraag 2.
+
+Voor de rest was de progressiv disclosure duidelijk en wist de gebruiker dat de vraag bij de vraag daarboven hoorde.    
+
+## wat heb ik geleerd?
+
+vandaag heb ik geleerd hoe je een datalist kan gebruiken voor landcodes en hoe je met js ervoor kan zorgen dat als iets hidden is en het is required het dan geen required meer is.
+
+
+
+### Wat heb ik gedaan/hoelang duurde het
+vandaag ben ik de dag begonnen met een user test om te zien wat er wel en niet goed gaat binnen mijn formulier. zie het gedeelte user test om de bevindingen te lezen. Daarna ben ik bezig geweest met een datalist en ervoor zorgen dat required niet werkt als iets hidden is.
+
+### Wat ga ik volgende keer doen? 
+ik wil nog wat vallidatie toevoegen en dan een begin scherm maken die het formulier een beetje uitleggen en een eindscherm die zegt dat het formulier is verstuurd.
+
+
+
+
 ### bronnen
 
 NS huistijl
@@ -131,3 +155,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/pattern
 Elf proef
 
 https://gathering.tweakers.net/forum/list_messages/1154338
+
+voor de landcodes 
+
+https://www.ayrshare.com/docs/iso-codes/country
+
+
+
+
+voor de required weg halen en met OWen er ook aangewerkt
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/required

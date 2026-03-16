@@ -72,6 +72,23 @@ h2 {
     font-family: nssans, sans-serif;
     font-size: 2rem;
     font-weight: bold;
+    padding-top: 2rem;
+}
+
+h3{
+     padding: 0.5rem ;
+    color: var(--color-primary);
+    font-family: nssans, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+
+p{
+    color:var(--color-primary);
+    font-weight: bold;
+    font-family: nssans, sans-serif;
 }
 
 fieldset {
@@ -86,6 +103,7 @@ legend {
     font-family: nssans, sans-serif;
     line-height: 1;
     font-weight: bold;
+    padding-top: 1rem;
 }
 
 label {
@@ -148,16 +166,19 @@ input[type="Email"]:focus {
 }
 /* MARK:Vallidation */
 input:user-valid{
-    border: 2px solid green
+    border: 2px solid green;
+    background-color: lightgreen;
 }
 
 input:user-invalid{
     border: 2px solid red;
+    background-color: rgb(248, 146, 146);
 }
 /* tip gekregen van Mitchell om de error msg met css te doen via een display none en dan display block */
 .error-msg {
     display: none;
     color: var(--color-accent);
+    font-family: initial;
 }
 
 input:user-invalid + .error-msg {
@@ -173,7 +194,13 @@ input:user-invalid + .error-msg {
 #huwlijk-fieldset,
 #kinderen-dood-fieldset,
 #kinderen-kind-fieldset,
-#notaris-fieldset {
+#notaris-fieldset,
+#gemachtigde-bsn-label,
+#gemachtigde-bsn,
+#gemachtigde-becon-label,
+#gemachtigde-becon,
+#gemachtigde-protocol-label,
+#gemachtigde-protocol {
     display: none;
 }
 
@@ -199,6 +226,21 @@ form:has(#kinderen-ja:checked) #kinderen-dood-fieldset {
 }
 
 form:has(#kinderen-dood-ja:checked) #kinderen-kind-fieldset {
+    display: block;
+}
+
+form:has(#gemachtigde-keuze-bsn:checked) #gemachtigde-bsn-label,
+form:has(#gemachtigde-keuze-bsn:checked) #gemachtigde-bsn {
+    display: block;
+}
+
+form:has(#gemachtigde-keuze-becon:checked) #gemachtigde-becon-label,
+form:has(#gemachtigde-keuze-becon:checked) #gemachtigde-becon {
+    display: block;
+}
+
+form:has(#gemachtigde-keuze-protocol:checked) #gemachtigde-protocol-label,
+form:has(#gemachtigde-keuze-protocol:checked) #gemachtigde-protocol {
     display: block;
 }
 

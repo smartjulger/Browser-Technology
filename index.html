@@ -13,7 +13,8 @@
     </header>
 
     <form>
-      <h2>1</h2>
+      <!-- MARK:vraag 1 -->
+      <h3>1</h3>
       <fieldset>
         <!-- MARK:gegevens overledene -->
         <h2>Gegevens van de overledene</h2>
@@ -160,35 +161,190 @@
 
           <label for="testament-nee">
             <input type="radio" name="testament" id="testament-nee" />
-            Nee. Ga verder naar vraag 2
+            Nee. Ga verder naar de volgende vraag
           </label>
         </fieldset>
+
         <!-----------------------
 --------- Notaris -------
 --------------------------->
         <fieldset id="notaris-fieldset">
           <legend>Gegevens van de notaris</legend>
 
-          <label for="notaris-protocol">Protocolnummer notaris</label>
+          <label for="notaris-protocol"
+            >Protocolnummer notaris <span>*</span></label
+          >
           <input type="number" id="notaris-protocol" required />
 
-          <label for="notaris-voorletters">Voorletter(s)</label>
+          <label for="notaris-voorletters">Voorletter(s) <span>*</span></label>
           <input type="text" id="notaris-voorletters" required />
 
           <label for="notaris-tussen">Tussen-voegsel(s)</label>
           <input type="text" id="notaris-tussen" />
 
-          <label for="notaris-achternaam">Achternaam</label>
+          <label for="notaris-achternaam">Achternaam <span>*</span></label>
           <input type="text" id="notaris-achternaam" required />
 
-          <label for="notaris-vesting">Vestigingsplaats</label>
+          <label for="notaris-vesting">Vestigingsplaats <span>*</span></label>
           <input type="text" id="notaris-vesting" required />
 
-          <label for="notaris-datum">Datum</label>
+          <label for="notaris-datum">Datum <span>*</span></label>
           <input type="date" id="notaris-datum" required />
         </fieldset>
-        <a href="vraag2.html">door naar vraag 2</a>
+        
+        
+        
+        
+        
+        
+        <!-- MARK:vraag 2 -->
+        <h3>2</h3>
+        <fieldset>
+          <h2>Gegevens gemachtigde</h2>
+
+          <fieldset>
+            <legend>BSN, RSIN of notaris nummer</legend>
+
+            <p>
+              Vul 1 van de 3 in: het bsn of RSIN van de gemachtigde, het
+              beconnummer van de adviseur of het protocolnummer van de notaris.
+            </p>
+
+            <!-- MARK: gemachtigde-->
+            <label for="gemachtigde-keuze-bsn">
+              <input
+                type="radio"
+                name="gemachtigde-keuze"
+                id="gemachtigde-keuze-bsn"
+                required
+              />
+              Ik vul Bsn/RSIN gemachtigde in
+            </label>
+
+            <label for="gemachtigde-keuze-becon">
+              <input
+                type="radio"
+                name="gemachtigde-keuze"
+                id="gemachtigde-keuze-becon"
+                required
+              />
+              Ik vul Beconnummer adviseur in
+            </label>
+
+            <label for="gemachtigde-keuze-protocol">
+              <input
+                type="radio"
+                name="gemachtigde-keuze"
+                id="gemachtigde-keuze-protocol"
+                required
+              />
+              Ik vul Protocolnummer notaris in
+            </label>
+
+            <label for="gemachtigde-bsn" id="gemachtigde-bsn-label">
+              Bsn/RSIN gemachtigde <span>*</span>
+            </label>
+            <input type="text" id="gemachtigde-bsn" />
+
+            <label for="gemachtigde-becon" id="gemachtigde-becon-label">
+              Beconnummer adviseur <span>*</span>
+            </label>
+            <input type="text" id="gemachtigde-becon" />
+
+            <label for="gemachtigde-protocol" id="gemachtigde-protocol-label">
+              Protocolnummer notaris <span>*</span>
+            </label>
+            <input type="text" id="gemachtigde-protocol" />
+          </fieldset>
+
+          <!-- MARK:gegevens gemachtigde -->
+          <fieldset>
+            <legend>persoonlijke gegevens gemachtigde</legend>
+
+            <label for="voorletters-gemachtigde">
+              Voorletter(s) gemachtigde <span>*</span>
+            </label>
+            <input type="text" id="voorletters-gemachtigde" required />
+            <p class="error-msg">vul je Voorletter(s) in</p>
+            <label for="tussenvoegsel-gemachtigde">
+              Tussenvoegsel(s) gemachtigde
+            </label>
+            <input type="text" id="tussenvoegsel-gemachtigde" />
+
+            <label for="achternaam-gemachtigde"
+              >Achternaam gemachtigde <span>*</span></label
+            >
+            <input type="text" id="achternaam-gemachtigde" required />
+            <p class="error-msg">vul je achternaam in</p>
+
+            <label for="naam-instelling">
+              Naam instelling (bijvoorbeeld een notariskantoor) <span>*</span>
+            </label>
+            <input type="text" id="naam-instelling" required />
+            <p class="error-msg">vul je Voorletter(s) in</p>
+          </fieldset>
+
+          <!-- MARK:adres Adress -->
+          <fieldset>
+            <legend>Adres in Nederland</legend>
+
+            <label for="nl-straat">Straat <span>*</span></label>
+            <input type="text" id="nl-straat" required />
+
+            <label for="nl-huisnummer">Huisnummer <span>*</span></label>
+            <input type="text" id="nl-huisnummer" required />
+
+            <label for="nl-toevoeging">Toevoeging</label>
+            <input type="text" id="nl-toevoeging" />
+
+            <label for="nl-postcode">Postcode <span>*</span></label>
+            <input type="text" id="nl-postcode" required />
+
+            <label for="nl-woonplaats">Woonplaats <span>*</span></label>
+            <input type="text" id="nl-woonplaats" required />
+          </fieldset>
+
+          <!-- buitenland -->
+          <fieldset>
+            <legend>Adres in het buitenland</legend>
+
+            <label for="buitenland-straat"
+              >Straat en huisnummer <span>*</span></label
+            >
+            <input type="text" id="buitenland-straat" required />
+
+            <label for="buitenland-postcode"
+              >Postcode en plaats <span>*</span></label
+            >
+            <input type="text" id="buitenland-postcode" required />
+
+            <label for="landcode">Landcode <span>*</span></label>
+<input type="text" id="landcode" list="landcode-list" required />
+<datalist id="landcode-list"></datalist>
+          </fieldset>
+
+          <!-- MARK:contactgegevens -->
+          <fieldset>
+            <legend>Contactgegevens</legend>
+
+            <p>
+              Het invullen van een telefoonnummer of e-mailadres is niet
+              verplicht, maar wel handig.
+            </p>
+
+            <label for="telefoonnummer">Telefoonnummer <span>*</span></label>
+            <input type="number" id="telefoonnummer" required />
+
+            <label for="email">E-mailadres <span>*</span></label>
+            <input type="Email" id="email" required />
+          </fieldset>
+
+            <button type="submit">verstuur</button>
+          </div>
+        </fieldset>
       </fieldset>
     </form>
+
+    <script src="scripts/script.js"></script>
   </body>
 </html>
