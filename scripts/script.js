@@ -1,5 +1,5 @@
 // https://www.ayrshare.com/docs/iso-codes/country
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 const countries = [
   { code: "AL", name: "Albania" },
   { code: "AD", name: "Andorra" },
@@ -81,22 +81,45 @@ const conditionalFields = [
     trigger: "gemachtigde-keuze-protocol",
     inputs: ["gemachtigde-protocol"],
   },
+  {
+    trigger: "Nederland",
+    inputs: ["nl-straat", "nl-huisnummer", "nl-postcode", "nl-woonplaats"],
+  },
+  {
+    trigger: "Buitenland",
+    inputs: ["buitenland-straat", "buitenland-nummer", "buitenland-postcode", "landcode"],
+  },
 ];
+// https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/disabled
 
 function updateRequired() {
-  conditionalFields.forEach(({ trigger, inputs }) => {
-    const isVisible = document.getElementById(trigger)?.checked;
-
+  conditionalFields.forEach(({ inputs }) => {
     inputs.forEach((id) => {
       const input = document.getElementById(id);
       if (input) {
-        input.required = isVisible;
-        input.disabled = !isVisible;
+        input.required = false;
+        input.disabled = true;
+      }
+    });
+  });
+
+  conditionalFields.forEach(({ inputs }) => {
+    inputs.forEach((id) => {
+      const input = document.getElementById(id);
+      if (!input) {
+        return;
+      }
+// https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetParent
+      const isVisible = input.offsetParent !== null;
+
+      if (isVisible) {
+        input.required = true;
+        input.disabled = false;
       }
     });
   });
 }
-
+// https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 document.querySelector("form").addEventListener("change", updateRequired);
 
 updateRequired();

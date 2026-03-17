@@ -200,7 +200,9 @@ input:user-invalid + .error-msg {
 #gemachtigde-becon-label,
 #gemachtigde-becon,
 #gemachtigde-protocol-label,
-#gemachtigde-protocol {
+#gemachtigde-protocol,
+#adres-NL,
+#adres-buitenland {
     display: none;
 }
 
@@ -241,6 +243,14 @@ form:has(#gemachtigde-keuze-becon:checked) #gemachtigde-becon {
 
 form:has(#gemachtigde-keuze-protocol:checked) #gemachtigde-protocol-label,
 form:has(#gemachtigde-keuze-protocol:checked) #gemachtigde-protocol {
+    display: block;
+}
+
+form:has(#Nederland:checked) #adres-NL {
+    display: block;
+}
+
+form:has(#Buitenland:checked) #adres-buitenland {
     display: block;
 }
 

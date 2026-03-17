@@ -174,22 +174,22 @@
           <label for="notaris-protocol"
             >Protocolnummer notaris <span>*</span></label
           >
-          <input type="number" id="notaris-protocol" required />
+          <input type="number" id="notaris-protocol" />
 
           <label for="notaris-voorletters">Voorletter(s) <span>*</span></label>
-          <input type="text" id="notaris-voorletters" required />
+          <input type="text" id="notaris-voorletters" />
 
           <label for="notaris-tussen">Tussen-voegsel(s)</label>
           <input type="text" id="notaris-tussen" />
 
           <label for="notaris-achternaam">Achternaam <span>*</span></label>
-          <input type="text" id="notaris-achternaam" required />
+          <input type="text" id="notaris-achternaam" />
 
           <label for="notaris-vesting">Vestigingsplaats <span>*</span></label>
-          <input type="text" id="notaris-vesting" required />
+          <input type="text" id="notaris-vesting" />
 
           <label for="notaris-datum">Datum <span>*</span></label>
-          <input type="date" id="notaris-datum" required />
+          <input type="date" id="notaris-datum" />
         </fieldset>
         
         
@@ -285,41 +285,66 @@
           </fieldset>
 
           <!-- MARK:adres Adress -->
+
           <fieldset>
+            <legend>woonplaats</legend>
+                <label for="Nederland">
+              <input
+                type="radio"
+                name="woonplaats"
+                id="Nederland"
+                required/>
+             Nederland
+            </label>
+
+              <label for="Buitenland">
+              <input
+                type="radio"
+                name="woonplaats"
+                id="Buitenland"
+                required/>
+             buitenland
+            </label>
+
+          </fieldset>
+          <fieldset id="adres-NL">
             <legend>Adres in Nederland</legend>
 
             <label for="nl-straat">Straat <span>*</span></label>
-            <input type="text" id="nl-straat" required />
+            <input type="text" id="nl-straat" />
 
             <label for="nl-huisnummer">Huisnummer <span>*</span></label>
-            <input type="text" id="nl-huisnummer" required />
+            <input type="text" id="nl-huisnummer" />
 
             <label for="nl-toevoeging">Toevoeging</label>
             <input type="text" id="nl-toevoeging" />
 
             <label for="nl-postcode">Postcode <span>*</span></label>
-            <input type="text" id="nl-postcode" required />
+            <input type="text" id="nl-postcode" />
 
             <label for="nl-woonplaats">Woonplaats <span>*</span></label>
-            <input type="text" id="nl-woonplaats" required />
+            <input type="text" id="nl-woonplaats" />
           </fieldset>
 
           <!-- buitenland -->
-          <fieldset>
+          <fieldset id="adres-buitenland">
             <legend>Adres in het buitenland</legend>
 
             <label for="buitenland-straat"
-              >Straat en huisnummer <span>*</span></label
+              >Straat naam<span>*</span></label
             >
-            <input type="text" id="buitenland-straat" required />
-
+            <input type="text" id="buitenland-straat" />
+ <label for="buitenland-nummer"
+              >huisnummer<span>*</span></label
+            >
+            <input type="text" id="buitenland-nummer" />
             <label for="buitenland-postcode"
-              >Postcode en plaats <span>*</span></label
+              >Postcode<span>*</span></label
             >
-            <input type="text" id="buitenland-postcode" required />
+            <input type="text" id="buitenland-postcode" />
 
             <label for="landcode">Landcode <span>*</span></label>
-<input type="text" id="landcode" list="landcode-list" required />
+<input type="text" id="landcode" list="landcode-list" />
 <datalist id="landcode-list"></datalist>
           </fieldset>
 

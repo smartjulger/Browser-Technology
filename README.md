@@ -136,6 +136,23 @@ vandaag ben ik de dag begonnen met een user test om te zien wat er wel en niet g
 ik wil nog wat vallidatie toevoegen en dan een begin scherm maken die het formulier een beetje uitleggen en een eindscherm die zegt dat het formulier is verstuurd.
 
 
+## 17/03/2026 
+
+### Wat heb ik gedaan/hoelang duurde het
+
+vandaag heb ik ervoor gezorg dat de logica van required nu omgekeerd werkt hidden elementen hebben nu geen required aan het begin en krijgen die alleen als ze zichtbaar zijn. Daarnaast ben ik begonnen met het maken van een begin scherm die de regels van het formulier uitleggen aan de gebruiken.
+
+### wat heb ik geleerd?
+
+hoe je met javascript required kan toevoegen
+
+
+### Wat ga ik volgende keer doen? 
+
+nog laatste lootjes leggen voor het eindgesprek de voor pagina afmaken met wat styling en een eindpagina voor als je het formulier hebt ingevuld.
+
+
+
 
 
 ### bronnen
@@ -164,4 +181,11 @@ https://www.ayrshare.com/docs/iso-codes/country
 
 
 voor de required weg halen en met OWen er ook aangewerkt
+
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/required
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetParent
+
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
