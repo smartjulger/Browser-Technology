@@ -1,16 +1,4 @@
-@font-face {
-    font-family: nssans;
-    src: url('../assets/fonts/nssans-regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: nssans;
-    src: url('../assets/fonts/nssans-bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-}
 /* MARK: root */
 :root {
     --form-width: min(92vw, 750px);
@@ -25,6 +13,20 @@
     --color-white: white;
     --color-button: blue;
     --color-border: #353585;
+}
+
+@font-face {
+    font-family: nssans;
+    src: url('../assets/fonts/nssans-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: nssans;
+    src: url('../assets/fonts/nssans-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* MARK:basic styling */
