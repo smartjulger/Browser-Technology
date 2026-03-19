@@ -34,12 +34,14 @@ ben bezig geweest met het hernamen van mijn html zodat het wat beter begrijpbaar
 daarna ben ik gaan opzoeken hoe ik eerst een fieldset hidden heb en daarna als je op de radio button klikt dan de fieldset tevoorschijn komt
 
 ## week 1
-### weekelijks gesprek met de docent
+
+weekelijks gesprek met de docent
+
 Niet veel kunnen laten zien want ik had alleen mijn html neergezet.
 
 Feedback was dat het fijn was dat ik eerst all me html heb neergezet en daarna pas bezig was met styling
 
-
+voordat ik ben begonnen met het neerzetten van mijn html heb ik de website opgedeelt in fieldsets en sections zodat ik weet hoe ik het ga opzetten daarna ben ik aan de slag gegaan met het opzetten van mijn html en kijken naar hoe ik progressiv disclosure kan toevoegen.
 
 ## 02/03/2026
 
@@ -75,10 +77,10 @@ volgende keer wil ik de progressive disclosure afmaken en als dat af is wil ik d
 
 ## week 2
 
-### feedback gesprek met groepje
+feedback gesprek met groepje
 laat de styling een beetje zitten en kijk naar de validation als dat gedaan is kan je weer verder met styling. Voor het contrast kan je de background aanpassen naar geel en dan de fomr zelf wit voor een beter contrast.
 
-### wat heb ik gedaan deze week?
+wat heb ik gedaan deze week?
 deze week ben ik begonnen met het stylen van mijn vorm ik heb gekozen om de achtergrond een beetje grijs te maken zoals de ns gebruikt en dan voor de form maak ik gebruik van geel en dan voor de legends maak ik gebruik van blauw. Na de basis styling ben ik bezig geweest met de progressive disclosure maken. Dinsdag ben ik weer gaan kijken naar de kleuren omdat het contrast niet fijn was en ben ik gaan proberen om de legends te fixen die namen namelijk meer ruimte in dan zou moeten(dit is nog een lopend probleem aan het eind van de week) en ben ik gaan kijken naar het stylen van de radio buttons zodat ze iets meer lijken op een normale button. Als laatst ben ik gaan kijken naar wat validation ik heb daar wat voor toegevoegd maar daarna weer weg gehaalt omdat het niet werkte zoals ik het wilde.
 
 
@@ -110,7 +112,7 @@ Vallidation verbeteren met JS en de elfproef maken en landcodes toevoegen.
 
 ## 13/03/2026
 
-### feedback sessie 
+feedback sessie 
 kijk naar de witruimte zodat het niet super clustered is. Daarnaast de button om naar de volgende pagina te gaan kijken hoe hij de informatie kan opslaan zodat je het weer kan laden en nog wat extra styling toevoegen bij pagina 2 en connect de 2 date pickers met js(alleen wnr er nog tijd voor is)
 
 
