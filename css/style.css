@@ -167,6 +167,7 @@ input[type="Email"]:focus {
     background-color: var(--color-light);
 }
 /* MARK:Vallidation */
+/* geleerd tijdens een workshop vallidation met css */
 input:user-valid{
     border: 2px solid green;
     background-color: lightgreen;

@@ -211,7 +211,9 @@ voor de landcodes
 
 https://www.ayrshare.com/docs/iso-codes/country
 
+voor de css validatie 
 
+dit heb ik geleerd tijdens een workshop
 
 
 voor de required weg halen en met Owen er ook aangewerkt
