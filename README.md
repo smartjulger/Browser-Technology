@@ -185,6 +185,10 @@ nadat ik dat had gedaan kreeg ik de tip dat het handiger is om alle hidden geen 
 
 dit zorgt ervoor dat als een gebruiker javascript heeft uitgezet een gebruiker nog steeds het formulier kan inleveren. daarnaast heb ik een usertest gedaan om te kijken of mijn formulier duidelijk is voor iemand die helemaal nog niet mijn formulier heeft gezien daar kwam nuttige informatie uit hierdoor wist ik wat werkte en wat nog niet werkte. als laatst heb ik gecontroleerd of alles echt responsive is.
 
+#### als ik iets meer tiid had dan zou ik dit toevoegen.
+ als ik iets meer tijd had dan zou ik de date picker aan passen zodat het helemaal goed werkt 
+ en zou ik via js ervoor willen zorgen dat het formulier lokaal opslaat zodat je uit het formulier kan gaan en dan weer terug erin en alle data er nog in staat. Ik zou ook graag nog een informatie pop up willen waar dat nodig is
+
 ### bronnen
 
 NS huistijl
