@@ -38,12 +38,14 @@
 
           <label for="date">Datum overlijden <span>*</span></label>
           <input type="date" id="date" required />
+          <p class="error-msg">kies een geldige datum van overlijden</p>
         </fieldset>
         <!-- MARK:huwelijkse staat -->
         <h2>Huwelijkse staat</h2>
         <fieldset>
           <legend>
             Was de overledene getrouwd of had deze een geregistreerd partner?
+            <span>*</span>
           </legend>
 
           <label for="married-ja">
@@ -61,7 +63,7 @@
           <legend>
             Hadden de overledene en diens echtgenoot of geregistreerde partner
             huwelijkse of partnerschapsvoorwaarden laten vastleggen in een
-            notariële akte?
+            notariële akte? <span>*</span>
           </legend>
 
           <label for="akte-ja">
@@ -77,13 +79,15 @@
 
         <fieldset id="akte-kopie-fieldset">
           <legend>Kopie van de akte</legend>
-          <label for="akte-kopie">Kopie van de akte</label>
+          <label for="akte-kopie">Kopie van de akte <span>*</span></label>
           <input type="file" id="akte-kopie" />
+          <p class="error-msg">voeg een kopie van de akte toe</p>
         </fieldset>
 
         <fieldset id="partner-fieldset">
           <legend>
             Hadden de overledene en diens partner een finaal verrekenbeding?
+            <span>*</span>
           </legend>
 
           <label for="partner-ja">
@@ -99,13 +103,14 @@
 
         <fieldset id="huwlijk-fieldset">
           <legend>Datum huwelijkse of partnerschapsvoorwaarden</legend>
-          <label for="huwlijk">Datum</label>
+          <label for="huwlijk">Datum <span>*</span></label>
           <input type="date" id="huwlijk" />
+          <p class="error-msg">kies een geldige datum</p>
         </fieldset>
         <!-- MARK:kinderen -->
         <h2>Kinderen</h2>
         <fieldset>
-          <legend>Had de overledene kinderen?</legend>
+          <legend>Had de overledene kinderen? <span>*</span></legend>
 
           <label for="kinderen-ja">
             <input type="radio" name="kinderen" id="kinderen-ja" />
@@ -121,7 +126,7 @@
         <fieldset id="kinderen-dood-fieldset">
           <legend>
             Is 1 van deze kinderen eerder overleden dan de overledene voor wie u
-            nu aangifte doet?
+            nu aangifte doet? <span>*</span>
           </legend>
 
           <label for="kinderen-dood-ja">
@@ -136,7 +141,7 @@
         </fieldset>
 
         <fieldset id="kinderen-kind-fieldset">
-          <legend>Had dit overleden kind zelf kinderen?</legend>
+          <legend>Had dit overleden kind zelf kinderen? <span>*</span></legend>
 
           <label for="kinderen-kind-ja">
             <input type="radio" name="kinderen-kind" id="kinderen-kind-ja" />
@@ -151,7 +156,7 @@
         <!-- MARK:testament/notaris -->
         <h2>Testament</h2>
         <fieldset>
-          <legend>Had de overledene een testament?</legend>
+          <legend>Had de overledene een testament? <span>*</span></legend>
 
           <label for="testament-ja">
             <input type="radio" name="testament" id="testament-ja" />
@@ -175,21 +180,26 @@
             >Protocolnummer notaris <span>*</span></label
           >
           <input type="number" id="notaris-protocol" />
+          <p class="error-msg">vul een geldig protocolnummer in</p>
 
           <label for="notaris-voorletters">Voorletter(s) <span>*</span></label>
           <input type="text" id="notaris-voorletters" />
+          <p class="error-msg">vul de voorletter(s) van de notaris in</p>
 
           <label for="notaris-tussen">Tussen-voegsel(s)</label>
           <input type="text" id="notaris-tussen" />
 
           <label for="notaris-achternaam">Achternaam <span>*</span></label>
           <input type="text" id="notaris-achternaam" />
+          <p class="error-msg">vul de achternaam van de notaris in</p>
 
           <label for="notaris-vesting">Vestigingsplaats <span>*</span></label>
           <input type="text" id="notaris-vesting" />
+          <p class="error-msg">vul een vestigingsplaats in</p>
 
           <label for="notaris-datum">Datum <span>*</span></label>
           <input type="date" id="notaris-datum" />
+          <p class="error-msg">kies een geldige datum</p>
         </fieldset>
         
         
@@ -203,7 +213,7 @@
           <h2>Gegevens gemachtigde</h2>
 
           <fieldset>
-            <legend>BSN, RSIN of notaris nummer</legend>
+            <legend>BSN, RSIN of notaris nummer <span>*</span></legend>
 
             <p>
               Vul 1 van de 3 in: het bsn of RSIN van de gemachtigde, het
@@ -245,16 +255,19 @@
               Bsn/RSIN gemachtigde <span>*</span>
             </label>
             <input type="text" id="gemachtigde-bsn" />
+            <p class="error-msg">vul een geldig BSN/RSIN in</p>
 
             <label for="gemachtigde-becon" id="gemachtigde-becon-label">
               Beconnummer adviseur <span>*</span>
             </label>
             <input type="text" id="gemachtigde-becon" />
+            <p class="error-msg">vul een geldig beconnummer in</p>
 
             <label for="gemachtigde-protocol" id="gemachtigde-protocol-label">
               Protocolnummer notaris <span>*</span>
             </label>
             <input type="text" id="gemachtigde-protocol" />
+            <p class="error-msg">vul een geldig protocolnummer in</p>
           </fieldset>
 
           <!-- MARK:gegevens gemachtigde -->
@@ -265,7 +278,7 @@
               Voorletter(s) gemachtigde <span>*</span>
             </label>
             <input type="text" id="voorletters-gemachtigde" required />
-            <p class="error-msg">vul je Voorletter(s) in</p>
+            <p class="error-msg">vul de Voorletter(s) in</p>
             <label for="tussenvoegsel-gemachtigde">
               Tussenvoegsel(s) gemachtigde
             </label>
@@ -275,26 +288,26 @@
               >Achternaam gemachtigde <span>*</span></label
             >
             <input type="text" id="achternaam-gemachtigde" required />
-            <p class="error-msg">vul je achternaam in</p>
+            <p class="error-msg">vul een achternaam in</p>
 
             <label for="naam-instelling">
               Naam instelling (bijvoorbeeld een notariskantoor) <span>*</span>
             </label>
             <input type="text" id="naam-instelling" required />
-            <p class="error-msg">vul je Voorletter(s) in</p>
+            <p class="error-msg">vul een geldige naam in</p>
           </fieldset>
 
           <!-- MARK:adres Adress -->
 
           <fieldset>
-            <legend>woonplaats</legend>
+            <legend>woonplaats <span>*</span></legend>
                 <label for="Nederland">
               <input
                 type="radio"
                 name="woonplaats"
                 id="Nederland"
                 required/>
-             Nederland
+                Nederland
             </label>
 
               <label for="Buitenland">
@@ -303,7 +316,7 @@
                 name="woonplaats"
                 id="Buitenland"
                 required/>
-             buitenland
+                buitenland
             </label>
 
           </fieldset>
@@ -312,18 +325,22 @@
 
             <label for="nl-straat">Straat <span>*</span></label>
             <input type="text" id="nl-straat" />
+            <p class="error-msg">vul een straatnaam in</p>
 
             <label for="nl-huisnummer">Huisnummer <span>*</span></label>
             <input type="text" id="nl-huisnummer" />
+            <p class="error-msg">vul een huisnummer in</p>
 
             <label for="nl-toevoeging">Toevoeging</label>
             <input type="text" id="nl-toevoeging" />
 
             <label for="nl-postcode">Postcode <span>*</span></label>
             <input type="text" id="nl-postcode" />
+            <p class="error-msg">vul een geldige postcode in</p>
 
             <label for="nl-woonplaats">Woonplaats <span>*</span></label>
             <input type="text" id="nl-woonplaats" />
+            <p class="error-msg">vul een woonplaats in</p>
           </fieldset>
 
           <!-- buitenland -->
@@ -334,18 +351,21 @@
               >Straat naam<span>*</span></label
             >
             <input type="text" id="buitenland-straat" />
- <label for="buitenland-nummer"
-              >huisnummer<span>*</span></label
-            >
+            <p class="error-msg">vul een straatnaam in</p>
+             <label for="buitenland-nummer"
+              >huisnummer<span>*</span></label>
             <input type="text" id="buitenland-nummer" />
+            <p class="error-msg">vul een huisnummer in</p>
             <label for="buitenland-postcode"
               >Postcode<span>*</span></label
             >
             <input type="text" id="buitenland-postcode" />
+            <p class="error-msg">vul een geldige postcode in</p>
 
             <label for="landcode">Landcode <span>*</span></label>
 <input type="text" id="landcode" list="landcode-list" />
 <datalist id="landcode-list"></datalist>
+  <p class="error-msg">kies een landcode</p>
           </fieldset>
 
           <!-- MARK:contactgegevens -->
@@ -359,9 +379,11 @@
 
             <label for="telefoonnummer">Telefoonnummer <span>*</span></label>
             <input type="number" id="telefoonnummer" required />
+              <p class="error-msg">voer een geldig telefoonnummer in</p>
 
             <label for="email">E-mailadres <span>*</span></label>
             <input type="Email" id="email" required />
+              <p class="error-msg">voer een geldig Email adress in</p>
           </fieldset>
 
             <button type="submit">verstuur</button>
