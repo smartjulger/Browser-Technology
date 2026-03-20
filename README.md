@@ -110,10 +110,26 @@ Vallidation verbeteren met JS en de elfproef maken en landcodes toevoegen.
 
 
 
-## 13/03/2026
+## week 3
 
 feedback sessie 
-kijk naar de witruimte zodat het niet super clustered is. Daarnaast de button om naar de volgende pagina te gaan kijken hoe hij de informatie kan opslaan zodat je het weer kan laden en nog wat extra styling toevoegen bij pagina 2 en connect de 2 date pickers met js(alleen wnr er nog tijd voor is)
+kijk naar de witruimte zodat het niet super clustered is. Daarnaast de button om naar de volgende pagina te gaan kijken hoe hij de informatie kan opslaan zodat je het weer kan laden en nog wat extra styling toevoegen bij pagina 2 en connect de 2 date pickers met js
+
+wat heb ik gedaan deze week?
+
+Deze week heb ik veel stappen gemaakt in mijn styling en ook mijn vallidatie. ik heb ervoor gekozen om mijn vallidatie puur css te houden zodat een gebruiker altijd iets mee krijgt zelfs als die javascript uit heeft staan. als iets valid is dan zal de border donker groen worden en het inputfield zelf zal ook groen woorden alleen dan lichter.
+
+<img width="796" height="75" alt="image" src="https://github.com/user-attachments/assets/806a659a-bf70-48ba-a8c1-3a10d367caa6" />
+
+en bij een onjuist input feld het zelfde maar dan met de kleur rood en een error msg erbij
+
+<img width="784" height="103" alt="image" src="https://github.com/user-attachments/assets/377d5496-08a3-4da4-83a2-33f9b4c1957b" />
+
+ik kwam er achter omdat all mijn hidden items ook required zijn en als de gebruiker ze niet heeft ingeklikt ze alsog required zijn de gebruiker het formulier niet kan inleveren ik heb dit aangepakt door met javascript ervoor te zorgen dat als ze hidden zijn de required weg is.
+
+
+
+
 
 
 
@@ -154,8 +170,24 @@ hoe je met javascript required kan toevoegen
 nog laatste lootjes leggen voor het eindgesprek de voor pagina afmaken met wat styling en een eindpagina voor als je het formulier hebt ingevuld.
 
 
+## week 4 
+
+deze week heb ik de datalist gemaakt voor de land codes
+
+<img width="502" height="630" alt="image" src="https://github.com/user-attachments/assets/d9dad150-dba1-47d6-a79a-76d3609d0013" />
+
+nadat ik dat had gedaan kreeg ik de tip dat het handiger is om alle hidden geen required te geven en de required alleen toevoegen als het zichtbaar is 
+
+<img width="1125" height="620" alt="image" src="https://github.com/user-attachments/assets/55b681c6-2d1c-4e85-9954-4fd54aa76c7a" />
 
 
+<img width="977" height="793" alt="image" src="https://github.com/user-attachments/assets/a54d1cd7-8e9f-472f-a1b1-a2b33b3978f8" />
+
+dit zorgt ervoor dat als een gebruiker javascript heeft uitgezet een gebruiker nog steeds het formulier kan inleveren. daarnaast heb ik een usertest gedaan om te kijken of mijn formulier duidelijk is voor iemand die helemaal nog niet mijn formulier heeft gezien daar kwam nuttige informatie uit hierdoor wist ik wat werkte en wat nog niet werkte. als laatst heb ik gecontroleerd of alles echt responsive is.
+
+#### als ik iets meer tiid had dan zou ik dit toevoegen.
+ als ik iets meer tijd had dan zou ik de date picker aan passen zodat het helemaal goed werkt 
+ en zou ik via js ervoor willen zorgen dat het formulier lokaal opslaat zodat je uit het formulier kan gaan en dan weer terug erin en alle data er nog in staat. Ik zou ook graag nog een informatie pop up willen waar dat nodig is
 
 ### bronnen
 
